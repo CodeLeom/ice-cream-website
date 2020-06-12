@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <title>Leom Ice-Cream</title>
@@ -13,19 +14,19 @@
     <nav>
         <ul>
             <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
             </li>
 
             <li>
-                <a href="#">Varieties</a>
+                <a href="#variant">Variants</a>
             </li>
 
             <li>
-                <a href="#">Locations</a>
+                <a href="#location">Locations</a>
             </li>
 
             <li>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact Us</a>
             </li>
         </ul>
     </nav>
@@ -40,21 +41,102 @@
 
 
   <main>
-    <section>
-        <h3>About</h3>
+    <section class="about-section">
+        <a name="about"></a>
+        <h3 class="section-heading">About</h3>
+        <div class="about-container">
+            <div class="left-box">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ut, 
+                    voluptates earum laborum facere voluptate cumque,
+                     ipsam delectus repellendus iste fuga, nihil odio blanditiis.
+                      Voluptate vero quia in perferendis?<br><br>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ut, 
+                    voluptates earum laborum facere voluptate cumque,
+                     ipsam delectus repellendus iste fuga, nihil odio blanditiis.
+                      Voluptate vero quia in perferendis? <br><br>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ut, 
+                      voluptates earum laborum facere voluptate cumque,
+                       ipsam delectus repellendus iste fuga, nihil odio blanditiis.
+                        Voluptate vero quia in perferendis?<br><br>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ut, 
+                      voluptates earum laborum facere voluptate cumque,
+                       ipsam delectus repellendus iste fuga, nihil odio blanditiis.
+                        Voluptate vero quia in perferendis?<br><br>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ut, 
+                      voluptates earum laborum facere voluptate cumque.
+                </p>
+            </div>
+
+            <div class="right-box">
+                <div class="top-image">
+                    <div class="grid-one"></div>
+                    <div class="grid-two"></div>
+                </div>
+
+                <div class="bottom-image">
+                    <div class="grid-three"></div>
+                    <div class="grid-four"></div>
+                </div>
+
+        </div>
+
+
     </section>
 
-    <section>
-        <h3>Varieties</h3>
+    <section class="variant-section">
+        <a name="variant"></a>
+        <h3 class="section-heading">Variants</h3>
+            <div class="variant-image">
+                <div class="row-one">
+                    <div class="grid-image" id="image-one"></div>
+                    <div class="grid-image" id="image-two"></div>
+                    <div class="grid-image" id="image-three"></div>
+                </div>
+
+                <div class="row-two">
+                    <div class="grid-image" id="image-four"></div>
+                    <div class="grid-image" id="image-five"></div>
+                    <div class="grid-image" id="image-six"></div>
+                </div>
+
+                <div class="row-three">
+                    <div class="grid-image" id="image-seven"></div>
+                    <div class="grid-image" id="image-eight"></div>
+                    <div class="grid-image" id="image-nine"></div>
+                </div>
+
+            </div>
+
     </section>
 
-    <section>
-        <h3>Locations</h3>
+    <section class="location">
+        <a name="location"></a>
+        <h3 class="section-heading"> Locations</h3>
+            <div class="location-wrapper">
+                <div class="locations">
+                    <h4>Lagos</h4>
+                    <p>voluptates earum laborum <br>
+                         facere voluptate
+                    </p>
+                </div>
+
+                <div class="locations">
+                    <h4>Abuja</h4>
+                    <p>voluptates earum laborum <br>
+                         facere voluptate
+                    </p>
+                </div>
+
+                <div class="locations">
+                    <h4>PH City</h4>
+                    <p>voluptates earum laborum <br>
+                         facere voluptate
+                    </p>
+                </div>
+            </div>
     </section>
 
-    <section>
-        <h3>Contact</h3>
-    </section>
   </main>
 
 
@@ -63,8 +145,13 @@
 
 
 
-  <footer>
-
+  <footer class="contact-container">
+      <a name="contact"></a>
+    <h3 class="section-heading">Contact Us</h3>
+    <div>
+        <p class="email">leomdev@gmail.com</p>
+    </div>
+    <p>&copy; 2020 leom ice cream</p>
   </footer>
 </body>
 </html>

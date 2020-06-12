@@ -3,10 +3,12 @@
     padding: 0px;
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    color: rgb(100, 20, 140);
 }
 
 header {
@@ -37,7 +39,6 @@ nav ul li a:hover{
 }
 
 .header-container {
-    border: 2px solid gold;
     width: 90%;
     height: 80%;
     margin: auto auto;
@@ -59,4 +60,184 @@ nav ul li a:hover{
     color: #ffffdd;
     font-size: 35px;
     font-style: italic;
+}
+
+.about-section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.section-heading {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+
+.about-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    width: 40%;
+    text-align: justify;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.right-box {
+    width: 40%;
+    margin-left: 6%;
+}
+
+.top-image, .bottom-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-one {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/ice1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-image, .bottom-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-one {
+    width: 50%;
+    height: 250px;
+    background-image: url(./images/ice1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-two {
+    width: 50%;
+    height: 250px;
+    background-image: url(./images/ice2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-three {
+    width: 50%;
+    height: 250px;
+    background-image: url(./images/ice3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-four {
+    width: 50%;
+    height: 250px;
+    background-image: url(./images/ice4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.variant-section {
+    width: 100vw;
+}
+
+.variant-image {
+    width: 100%;
+}
+
+.row-one, .row-two, .row-three {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-image {
+    width:30%;
+    height: 300px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#image-one {
+    background-image: url(./images/ice5.jpg);
+}
+
+#image-two {
+    background-image: url(./images/ice6.jpg);
+}
+
+#image-three {
+    background-image: url(./images/ice7.jpg);
+}
+
+#image-four {
+    background-image: url(./images/ice8.jpg);
+}
+
+#image-five {
+    background-image: url(./images/cream.jpg);
+}
+
+#image-six {
+    background-image: url(./images/ice.jpg);
+}
+#image-seven {
+    background-image: url(./images/ice-cream.jpg);
+}
+
+#image-eight {
+    background-image: url(./images/ice1.jpg);
+}
+
+#image-nine {
+    background-image: url(./images/ice4.jpg);
+}
+.grid-image:hover {
+    opacity: 0.60;
+}
+
+.location{
+    width: 100vw;
+}
+
+.location-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.locations {
+    width: 30%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+}
+
+h4{
+    font-size: 200%;
+}
+
+.contact-container {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(100, 20, 140);
+    text-align: center;
+    color: #ffffff;
+}
+
+.email {
+    font-size: 150%;
 }
